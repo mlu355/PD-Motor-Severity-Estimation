@@ -8,7 +8,7 @@ Mandy Lu, Kathleen Poston, Adolf Pfefferbaum, Edith V. Sullivan, Li Fei-Fei, Kil
 
 <img src="data/pose_saliency_progression.png" width="650">
 
-3D input poses of four subjects with increasing PD motor severity (top) and saliency of classifier (bottom). 
+3D input poses of four subjects with increasing PD motor severity (top) and saliency of classifier (bottom). The oral presentation of this work at MICCAI is available [here] (https://www.youtube.com/watch?v=XZrY5vQuPHQ&ab_channel=EhsanAdeli). 
 
 ## Requirements
 
@@ -18,7 +18,7 @@ To install requirements, run:
 pip install -r requirements.txt
 ```
 
-with Python 3.7.
+with Python 3 (3.7 was used).
 
 ## Pose Extraction
 
