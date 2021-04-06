@@ -1,0 +1,14 @@
+Keras==2.4.3
+matplotlib
+numpy
+numpyencoder
+opencv-python
+pandas==1.0.1
+Pillow==7.0.0
+scipy==1.4.1
+sklearn==0.0
+tensorflow-gpu
+joblib
+jupyter
+tqdm
+

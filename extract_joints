@@ -1,0 +1,20 @@
+#!/bin/bash
+echo Extracting Joint Data...
+echo ---------------------------------------------------------------
+
+COMMAND='echo'
+DATA_DIR=$1
+OUTPUT_DIR=$2
+
+for filename in `find ${DATA_DIR} -type f -not -path "*output*"`;
+do
+
+  DIR=$(dirname ${filename})
+
+  echo ---------------------------------------------------------------
+  echo Extracting Pose data for full videos...
+  echo "Current directory is $DIR and file is $filename"
+  python3 demo.py --vid_file $filename --output_folder $OUTPUT_DIR
+
+done
+

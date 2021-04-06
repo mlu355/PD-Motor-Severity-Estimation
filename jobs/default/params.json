@@ -1,0 +1,21 @@
+{
+    "config": {
+        "frame_l": 120,
+        "joint_n": 49,
+        "joint_d": 3,
+        "clc_num": 4,
+        "feat_d": 1176,
+        "filters": 32,
+        "folds": 12,
+        "epochs": 300,
+        "lr": 0.001,
+        "offset": 2,
+        "batch_size": 64,
+	"alpha": 0.25,
+	"gamma": 2,
+	"beta": 0.5,
+        "model_type": "heavy",
+        "data_dir": "/home/ubuntu/EPD/splits/default/",
+	"label_path": "data/gait_labels.csv"
+    }
+}
