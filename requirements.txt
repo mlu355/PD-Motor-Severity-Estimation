@@ -4,7 +4,7 @@ numpy
 numpyencoder
 opencv-python
 pandas==1.0.1
-Pillow==7.0.0
+Pillow==10.0.1
 scipy==1.4.1
 sklearn==0.0
 tensorflow-gpu
